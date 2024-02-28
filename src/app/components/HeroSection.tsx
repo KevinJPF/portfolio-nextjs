@@ -10,19 +10,21 @@ const HeroSection = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-green-500 to-green-700">
-              Hello, I'm{" "}
+              Olá, eu sou{" "}
             </span>
             <br />
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                "Kevin",
+                "Kevin Juliano",
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Front-End Developer",
+                "Desenvolvedor Front-End",
                 1000,
-                "Mobile Developer",
+                "Desenvolvedor Mobile",
                 1000,
-                "Flutter and React Developer",
+                "Desenvolvedor Flutter",
+                1000,
+                "Desenvolvedor React",
                 1000,
               ]}
               wrapper="span"
@@ -31,18 +33,19 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum placeat
-            nesciunt veritatis velit, repellendus, similique ab, quam autem
-            saepe sunt repellat maxime dolor. Commodi quis vero tenetur,
-            possimus unde repellendus.
+            Olá, eu sou Kevin, sou formado como Técnico de Informática e estou
+            cursando Análise e Desenvolvimento de Sistemas na FATEC de Mogi das
+            Cruzes. Programo nas linguagens Dart/Flutter, C#,
+            Javascript/Typescript ReactJS e React Native, além de ter
+            conhecimento de banco de dados MySQL.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-green-300 via-green-600 to-green-900 hover:bg-slate-200 text-white">
-              Hire Me
+            <button className="px-[1px] py-[1px] w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-green-300 via-green-600 to-green-900 hover:bg-slate-200 text-white">
+              <span className="block px-5 py-2">Me Contrate</span>
             </button>
             <button className="px-[1px] py-[1px] w-full sm:w-fit rounded-full bg-gradient-to-br from-green-300 via-green-600 to-green-900 hover:bg-slate-800 text-white  mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
+                Baixar CV
               </span>
             </button>
           </div>
